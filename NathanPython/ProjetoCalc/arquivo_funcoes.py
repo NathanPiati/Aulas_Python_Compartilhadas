@@ -1,29 +1,40 @@
 import math
 
-def soma(num1, num2):
-    return num1 + num2
+def soma(a, b):
+    return a + b
 
-def subtracao(num1, num2):
-    return num1 - num2
+def subtracao(a, b):
+    return a - b
 
-def multiplicacao(num1, num2):
-    return num1 * num2
+def multiplicacao(a, b):
+    return a * b
 
-def divisao(num1, num2):
-    if num2 == 0:
-        return "Erro: Divisão por zero não permitida."
-    return num1 / num2
+def divisao(a, b):
+    if b == 0:
+        return "Erro: Divisão por zero"
+    return a / b
 
-def exponenciacao(num1, num2):
-    return num1 ** num2
+def exponenciacao(a, b):
+    return a ** b
 
-def raiz(num1):
-    if num1 < 0:
-        return "Erro: Não é possível calcular a raiz quadrada de um número negativo."
-    return math.sqrt(num1)
+# def raiz(a):
+#     if a < 0:
+#         return "Erro: Raiz de número negativo"
+#     return math.sqrt(a)
 
-def seno(num1):
-    return math.sin(math.radians(num1))
+def raiz (numero1, numero2):
+    res = numero1 ** (1/numero2)
+    return res
 
-def cosseno(num1):
-    return math.cos(math.radians(num1))
+
+def seno(a):
+    return math.sin(math.radians(a))
+
+def cosseno(a):
+    return math.cos(math.radians(a))
+
+def tangente(a):
+    angulo = a % 180
+    if angulo == 90 or angulo == -90:
+        return "Erro: Tangente indefinida"
+    return math.tan(math.radians(a))
