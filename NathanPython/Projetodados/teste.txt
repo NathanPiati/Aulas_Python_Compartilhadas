@@ -1,0 +1,6 @@
+
+Salvando dados no arquivo teste A em 31/05/2025 09:25:52
+Código: USR20250531093202, Nome: Nathan, Idade: 30, Email: teste@gmail.com, Data: 31/05/2025 09:32:02
+Código: ID3303, Nome: Teste, Idade: 30, Email: teste@gmail.com, Data: 31/05/2025 09:33:03
+Código: ID2843, Nome: TESTE diretório, Idade: 20, Email: teste@hotmail.com, Data: 31/05/2025 10:28:43
+Código: ID5544, Nome: Testando nome, Idade: 20, Email: testando@gmail.com, Data: 31/05/2025 10:55:44

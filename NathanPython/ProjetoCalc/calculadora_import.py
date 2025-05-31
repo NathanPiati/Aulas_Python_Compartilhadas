@@ -2,11 +2,11 @@ import os
 import arquivo_funcoes as af
 
 def limpar_tela():
-    """Limpa a tela do terminal"""
+
     os.system("cls" if os.name == "nt" else "clear")
 
 def exibir_menu():
-    """Exibe o menu de opções da calculadora com '*' no final de cada linha"""
+
     print("* " + " Calculadora Python ".center(46, "-") + " *")
     print("* " + " 1 - Soma".ljust(46) + " *")  
     print("* " + " 2 - Subtração".ljust(46) + " *")
@@ -21,7 +21,7 @@ def exibir_menu():
 
 
 def calculadora():
-    """Função principal da calculadora"""
+
     while True:
         limpar_tela()
         exibir_menu()
@@ -57,7 +57,7 @@ def calculadora():
 
                 print(f"Resultado: {resultado}")
                 
-                # Pausa para ver o resultado antes de continuar
+                
                 input("Pressione Enter para continuar...")
 
             else:
